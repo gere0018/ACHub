@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Algonquin College",
+        "description":"Main College Website.Use this link when searching for programs or college information.",
+        "link":"http://www.algonquincollege.com/",
+        "thumbnail":"algonquin-college"
+
+    },
+     {
+        "name":"Current Students",
+        "description":"This link allows you to access your different Algonquin Platforms like ACSIS and Blackboard.",
+         "link":"http://www.algonquincollege.com/current-students/",
+
+        "thumbnail":"current-students"
+
+    }
+
+]
