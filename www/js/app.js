@@ -19,7 +19,7 @@ angular.module('starter', ['ionic'])
 
 })
 
-// The code below i added based on video from lynda [http://www.lynda.com/AngularJS-tutorials/Implementing-our-first-route/368920/386127-4.html] . The purpose is to create ionic routing views instead of multiple html pages.
+// The code below is added based on video from lynda [http://www.lynda.com/AngularJS-tutorials/Implementing-our-first-route/368920/386127-4.html]. The purpose is to create ionic routing for a single page applocation with multiple views instead of loading multiple html pages.
 
 .config(function($stateProvider, $urlRouterProvider){
     $stateProvider
@@ -41,6 +41,56 @@ angular.module('starter', ['ionic'])
             }
         }
     })
+    .state("tabs.surveys", {
+        url: "/surveys",
+        views: {
+            "surveys-tab":{
+                templateUrl:"templates/surveys.html",
+                controller: "SurveysController"
+
+            }
+        }
+    })
+    .state("tabs.faqs", {
+        url: "/faqs",
+        views: {
+            "faqs-tab":{
+                templateUrl:"templates/faqs.html",
+                controller: "FaqsController"
+
+            }
+        }
+    })
+    .state("tabs.map", {
+        url: "/map",
+        views: {
+            "map-tab":{
+                templateUrl:"templates/map.html",
+                controller: "MapController"
+
+            }
+        }
+    })
+    .state("tabs.phone", {
+        url: "/phone",
+        views: {
+            "phone-tab":{
+                templateUrl:"templates/phone.html",
+                controller: "PhoneController"
+
+            }
+        }
+    })
+    .state("tabs.events", {
+        url: "/events",
+        views: {
+            "events-tab":{
+                templateUrl:"templates/events.html",
+                controller: "EventsController"
+
+            }
+        }
+    })
 //default situation if no url is specified.
     $urlRouterProvider.otherwise("/tab/home");
 
@@ -57,7 +107,29 @@ angular.module('starter', ['ionic'])
         $scope.links = data;
     });
 
-}]);
+}])
+
+.controller('SurveysController', ['$scope', '$http', function($scope, $http){
+    $http.get('js/surveys.json').success(function(data){
+        console.log('succeded in getting surveys data');
+        $scope.surveys = data;
+    });
+
+}])
+.controller('CheckboxController', ['$scope', function($scope) {
+      $scope.isChecked = {
+       value1 : true,
+       value2 : false
+     };
+    //add code to have this tab direct to the direct link of this survey as a subpage if this is select input is checked.
+    }]);
+//.controller('EventsController', ['$scope', '$http', function(){
+//    console.log('activate events controller');
+//        window.open("http://www.algonquincollege.com/studentsupportservices/events/", "eventsPage");
+//
+//    }
+//
+//]);
 
 
 

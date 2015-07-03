@@ -1,15 +1,26 @@
 <ion-tabs class="tabs-icon-top">
-    <ion-tab class="active" href= "#/tab/home" icon = "icon ion-ios-home" title = "Home">
+    <ion-tab href= "#/tab/home" icon = "icon ion-ios-home" title = "Home">
         <ion-nav-view name="home-tab"></ion-nav-view>
     </ion-tab>
-<!--
-    <ion-tab href= "surveys.html"icon = "icon ion-ios-book" title = "Survey"></ion-tab>
-    <ion-tab href= "surveys.html" icon = "icon ion-help" title = "FAQs"></ion-tab>
-    <ion-tab href="http://lyceum.algonquincollege.com/roomfinder/"
-          icon = "icon ion-map" title = "Map"></ion-tab>
-    <ion-tab href= "http://algwww2.algonquincollege.com/cgi-bin/WebPh?DB=csnet-ns"
-          icon = "icon ion-ios-telephone" title = "Directory"></ion-tab>
-    <ion-tab href="http://www.algonquincollege.com/studentsupportservices/events/"
-          icon = "icon ion-ios-calendar" title = "Events"></ion-tab>
--->
+
+    <ion-tab href= "#/tab/surveys"icon = "icon ion-ios-book" title = "Surveys">
+    <ion-nav-view name="surveys-tab"></ion-nav-view>
+   </ion-tab>
+
+    <ion-tab href= "#/tab/faqs" icon = "icon ion-help" title = "FAQs">
+    <ion-nav-view name="faqs-tab"></ion-nav-view>
+   </ion-tab>
+
+    <ion-tab href= "#/tab/map" icon = "icon ion-ios-location" title = "Map">
+    <ion-nav-view name="map-tab"></ion-nav-view>
+   </ion-tab>
+
+    <ion-tab href= "#/tab/phone" icon = "icon ion-ios-telephone" title = "Directory">>
+    <ion-nav-view name="phone-tab"></ion-nav-view>
+   </ion-tab>
+
+    <ion-tab href= "#/tab/events"icon = "icon ion-ios-calendar" title = "Events">
+    <ion-nav-view name="events-tab"></ion-nav-view>
+   </ion-tab>
+
 </ion-tabs>

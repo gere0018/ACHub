@@ -1,0 +1,39 @@
+[
+    {
+        "name":"AC Hub main Desk",
+        "shortName": "main-desk",
+        "description":"Main location in E-217.",
+        "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/the-ac-hub-reception/?TEST_DATA=&_cb=t9JonSE3ak"
+
+    },
+     {
+        "name":"Satellite Desk",
+         "shortName": "satellite-desk",
+        "description":"Desk located near the library in C building. ",
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/main-desk-survey-2014-summer/?TEST_DATA&_cb=yOXhEkSETf"
+
+    },
+    {
+        "name":"Mobile A",
+        "shortName": "satellite-desk",
+        "description":"Desk located in CA building next to baseline station. ",
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-ac-hub-satellite-a/"
+
+    },
+    {
+        "name":"Mobile B",
+        "shortName": "satellite-desk",
+        "description":"Desk located in 4 corners. ",
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-satellite-mobile-b/?TEST_DATA=&_cb=G1a8x3B613"
+
+    },
+    {
+        "name":"Mobile C",
+        "shortName": "satellite-desk",
+        "description":"Desk located in position to be decided. ",
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-satellite-mobile-c/?TEST_DATA=&_cb=2tHhHbDT4b"
+
+    }
+
+
+]

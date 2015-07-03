@@ -7,3 +7,12 @@
     color: #EAAB00;
     text-decoration: none;
 }
+ion-content div.scroll{
+    height: 92%;
+    padding-top: 50px;
+}
+.webPage{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #EAAB00;
+}

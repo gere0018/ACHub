@@ -1,8 +1,3 @@
-      <!-- ******************** Header **************** -->
-<ion-header-bar class="bar-stable">
-          <img alt= "logo" class="title-image" src = "img/AC%20Hub%20Spaced%5B1%5D%20copy.png" >
-</ion-header-bar>
-
 <!-- ******************** search bar **************** -->
 
 <div class='bar bar-subheader item-input-inset bar-light'>
@@ -22,6 +17,8 @@
         <ion-item ng-repeat="item in links | filter: query"
         class="item-thumbnail-left item-text-wrap">
             <img ng-src="img/{{ item.thumbnail }}.jpg" alt="{{ item.name }} photo">
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.description }}</p>
             <a class= 'listLinks' href="{{ item.link }}">Link</a>
 
         </ion-item>
