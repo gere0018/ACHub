@@ -1,17 +1,16 @@
 [
     {
         "name":"Algonquin College",
+        "shortname": "algonquin-college",
         "description":"Main College Website.Use this link when searching for programs or college information.",
-        "link":"http://www.algonquincollege.com/",
-        "thumbnail":"algonquin-college"
+        "link":"http://www.algonquincollege.com/"
 
     },
      {
         "name":"Current Students",
+         "shortname": "current-students",
         "description":"This link allows you to access your different Algonquin Platforms like ACSIS and Blackboard.",
-         "link":"http://www.algonquincollege.com/current-students/",
-
-        "thumbnail":"current-students"
+         "link":"http://www.algonquincollege.com/current-students/"
 
     }
 

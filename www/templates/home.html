@@ -1,29 +1,29 @@
-<!-- ******************** search bar **************** -->
+<ion-view hide-nav-bar='true'>
+    <!-- ******************** search bar **************** -->
+    <div class='bar bar-subheader item-input-inset bar-light'>
+        <label class="item-input-wrapper">
+            <i class="icon ion-search placeholder-icon"></i>
+    <!--we add ng-model directive to search input to allow for two way data binding that makes the data and view connected -->
+            <input type="search" placeholder="Search" ng-model="query">
+        </label>
 
-<div class='bar bar-subheader item-input-inset bar-light'>
-    <label class="item-input-wrapper">
-        <i class="icon ion-search placeholder-icon"></i>
-<!--we add ng-model directive to search input to allow for two way data binding that makes the data and view connected -->
-        <input type="search" placeholder="Search" ng-model="query">
-    </label>
+    </div>
+    <!-- ******************** main content **************** -->
+    <ion-content ng-controller= "HomeController" class= "has-subheader padding">
+        <p>Lorem ipsum dolor sit amet, alienum persecuti mei te, no tamquam erroribus evertitur duo, illud ludus everti cum ei. Eu quot electram hendrerit vel, et quot persequeris vis. Nec mazim choro eu, meis indoctum disputando ut eos. Sea in simul temporibus reformidans. Aperiri molestiae ne eos, mei ad nostrud recteque ocurreret, in nec rebum luptatum postulant. Ei modus munere nec, oblique volumus insolens ad pri.
+        </p>
 
-</div>
-<!-- ******************** main content **************** -->
-<ion-content ng-controller= "HomeController" class= "has-subheader padding">
-    <p>Lorem ipsum dolor sit amet, alienum persecuti mei te, no tamquam erroribus evertitur duo, illud ludus everti cum ei. Eu quot electram hendrerit vel, et quot persequeris vis. Nec mazim choro eu, meis indoctum disputando ut eos. Sea in simul temporibus reformidans. Aperiri molestiae ne eos, mei ad nostrud recteque ocurreret, in nec rebum luptatum postulant. Ei modus munere nec, oblique volumus insolens ad pri.
-    </p>
+        <ion-list>
+            <ion-item ng-repeat="item in links | filter: query"
+            class="item-thumbnail-left item-text-wrap">
+                <img ng-src="img/{{ item.shortname }}.jpg" alt="{{ item.name }} photo">
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.description }}</p>
+                <a class= 'listLinks' href="#/tab/home/{{ item.shortname }}">Details</a>
 
-    <ion-list>
-        <ion-item ng-repeat="item in links | filter: query"
-        class="item-thumbnail-left item-text-wrap">
-            <img ng-src="img/{{ item.thumbnail }}.jpg" alt="{{ item.name }} photo">
-            <h3>{{ item.name }}</h3>
-            <p>{{ item.description }}</p>
-            <a class= 'listLinks' href="{{ item.link }}">Link</a>
+            </ion-item>
+        </ion-list>
 
-        </ion-item>
-    </ion-list>
+    </ion-content>
 
-</ion-content>
-
-
+</ion-view>

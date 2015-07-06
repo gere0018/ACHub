@@ -91,6 +91,29 @@ angular.module('starter', ['ionic'])
             }
         }
     })
+    //sub-page for links on home page.
+    .state("tabs.detail", {
+        url: "/home/:aId",
+        views: {
+            "home-tab":{
+                templateUrl:"templates/detail.html",
+                controller: "HomeController"
+
+            }
+        }
+    })
+     //sub-page for each survey on surveys page.
+    .state("tabs.survey", {
+        url: "/surveys/:aId",
+        views: {
+            "surveys-tab":{
+                templateUrl:"templates/survey.html",
+                controller: "SurveysController"
+
+            }
+        }
+    })
+
 //default situation if no url is specified.
     $urlRouterProvider.otherwise("/tab/home");
 
@@ -101,18 +124,22 @@ angular.module('starter', ['ionic'])
 //the second parameter is because in this controller we want to use the http service of angular.
 //the function takes both parameters as well.
 
-.controller('HomeController', ['$scope', '$http', function($scope, $http){
+.controller('HomeController', ['$scope', '$http', '$state',
+                               function($scope, $http, $state){
     $http.get('js/data.json').success(function(data){
         console.log('succeded in getting data');
         $scope.links = data;
+        $scope.whichlink=$state.params.aId;
     });
 
 }])
 
-.controller('SurveysController', ['$scope', '$http', function($scope, $http){
+.controller('SurveysController', ['$scope', '$http', '$state',
+                                  function($scope, $http, $state){
     $http.get('js/surveys.json').success(function(data){
         console.log('succeded in getting surveys data');
         $scope.surveys = data;
+        $scope.whichsurvey =$state.params.aId;
     });
 
 }])
@@ -122,15 +149,18 @@ angular.module('starter', ['ionic'])
        value2 : false
      };
     //add code to have this tab direct to the direct link of this survey as a subpage if this is select input is checked.
-    }]);
-//.controller('EventsController', ['$scope', '$http', function(){
-//    console.log('activate events controller');
-//        window.open("http://www.algonquincollege.com/studentsupportservices/events/", "eventsPage");
-//
-//    }
-//
-//]);
+    }])
 
+//added this based on code suggestion (http://forum.ionicframework.com/t/ng-src-not-updated-in-video-tag/7540/5); worked really well to replace the abscence of ng-src for iframes.
+
+.directive('dynamicUrl', function () {
+    return {
+        restrict: 'A',
+        link: function postLink(scope, element, attr) {
+            element.attr('src', attr.dynamicUrlSrc);
+        }
+    };
+});
 
 
 

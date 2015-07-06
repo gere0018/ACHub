@@ -1,4 +1,4 @@
-<ion-view>
+<ion-view hide-nav-bar='true'>
 <!-- ******************** main content **************** -->
     <ion-content ng-controller= "SurveysController" class= 'padding'>
         <ion-list>
@@ -8,10 +8,10 @@
 
             <ion-item ng-repeat="item in surveys | filter: query"
             class="item-thumbnail-left item-text-wrap">
-                <img  ng-src="img/{{ item.shortName }}.jpg" alt="{{ item.name }} photo">
+                <img  ng-src="img/{{ item.shortname }}.jpg" alt="{{ item.name }} photo">
                 <h3>{{ item.name }}</h3>
                 <p>{{ item.description }}</p>
-                <a class= 'listLinks' href="{{ item.link }}">Link</a>
+                <a class= 'listLinks' href="#/tab/surveys/{{ item.shortname }}">Link</a>
 
             </ion-item>
     </ion-list>
