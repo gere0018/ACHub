@@ -8,6 +8,7 @@
     text-decoration: none;
 }
 ion-content div.scroll{
+    overflow-y: scroll;
     height: 100%;
     margin-top: 2.5rem;
 }
@@ -17,8 +18,12 @@ ion-content div.scroll{
     border: 2px solid #EAAB00;
 }
 .custom-icon {
-    color : #94C947;
+   opacity: 0.6;
 }
 .algonquin{
     background-color: #94C947 !important;
+}
+.tab-item.tab-item-active{
+    color: #94C947 !important;
+
 }
