@@ -27,3 +27,7 @@ ion-content div.scroll{
     color: #94C947 !important;
 
 }
+.iframe-wrapper iframe {
+   width: 100%;
+   height: 100%;
+ }

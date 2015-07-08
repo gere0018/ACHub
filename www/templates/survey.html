@@ -1,6 +1,6 @@
 <ion-view>
-    <ion-content ng-repeat= "item in surveys | filter: {shortname: whichsurvey}">
-               <iframe class= 'webPage' name= "{{ item.shortname }}" src="" dynamic-url dynamic-url-src="{{item.link}}"></iframe>
+    <ion-content scroll="true" overflow-scroll="true" class="iframe-wrapper padding" ng-repeat= "item in surveys | filter: {shortname: whichsurvey}">
+              <iframe data-tap-disabled="true" class= 'webPage' name= "{{ item.shortname }}" src="" dynamic-url dynamic-url-src="{{item.link}}"></iframe>
 
     </ion-content>
 
