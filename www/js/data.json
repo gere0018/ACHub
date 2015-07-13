@@ -20,6 +20,13 @@
         "link":"http://www.algonquincollege.com/"
 
     },
+    {
+        "name":"Registrar's Office",
+         "shortname": "registrar-office",
+        "description":"Main office for Student registration. Located in Room C-150, Phone: 1-800-565-4723",
+         "link":"http://www.algonquincollege.com/ro/contact-us/"
+
+    },
      {
         "name":"Current Students",
          "shortname": "current-students",

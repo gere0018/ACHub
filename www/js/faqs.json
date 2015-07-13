@@ -2,35 +2,133 @@
     {
         "name":"Financial Aid",
         "shortname": "financial-aid",
-        "description":"Answers Frequently Asked Questions about OSAP and Bursaries.",
+        "description":"Frequently Asked Questions about OSAP and Bursaries.",
         "link":"http://www.algonquincollege.com/ro/pay/financial-aid/faqs/"
+    },
+
+    {
+        "name":"Registrar's Office",
+        "shortname": "ro-faq",
+        "description":"Frequently Asked Questions about all things related to Registrar's Office including graduation, registration... ",
+         "link":"http://www.algonquincollege.com/ro/graduate/frequently-asked-questions/"
     },
 
     {
         "name":"Parking",
         "shortname": "parking",
-        "description":"Answers Frequently Asked Questions about parking on campus.",
+        "description":"Frequently Asked Questions about parking on campus.",
          "link":"http://www.algonquincollege.com/parking/faqs/"
     },
     {
         "name":"Card Services",
         "shortname": "card-services",
-        "description":"Answers Frequently Asked Questions about AC Card.",
+        "description":"Frequently Asked Questions about AC Card.",
          "link":"http://www.algonquincollege.com/card-services/faq/"
     },
     {
         "name":"Internationl Education Center",
         "shortname": "iec-faq",
-        "description":"Answers Frequently Asked Questions about all things related to international students. ",
+        "description":"Frequently Asked Questions about all things related to international students. ",
          "link":"http://www.algonquincollege.com/international/prospective-students/faqs/"
-
     },
     {
         "name":"General Education electives",
         "shortname": "gen-ed",
-        "description":"Answers some of the common questions Algonquin College staff may have regarding General Education electives.",
+        "description":"Common questions Algonquin College staff may have regarding General Education electives.",
          "link":"http://www.algonquincollege.com/gened/staff/staff-faqs/"
+    },
+    {
+        "name":"Early Childhood Education",
+        "shortname": "Early Childhood Education",
+        "description":"Frequently Asked Questions about Early Childhood Education.",
+         "link":"http://www.algonquincollege.com/healthandcommunity/program/early-childhood-education/faqs/"
+    },
+
+    {
+        "name":"Dental Hygiene",
+        "shortname": "dental-hygiene",
+        "description":"Frequently Asked Questions about all things related to Dental Hygiene Program",
+         "link":"http://www.algonquincollege.com/healthandcommunity/program/dental-hygiene-3-years/faqs/"
+    },
+    {
+        "name":"Medical Radiation Technology",
+        "shortname": "mrt",
+        "description":"Frequently Asked Questions about Medical Radiation Technology",
+         "link":"http://www.algonquincollege.com/healthandcommunity/program/medical-radiation-technology/faqs/"
+    },
+    {
+        "name":"Prior Learning Assessment and Recognition(PLAR)",
+        "shortname": "plar",
+        "description":"Frequently Asked Questions about Prior Learning Assessment and Recognition",
+         "link":"http://www.algonquincollege.com/plar/faqs/"
+    },
+    {
+        "name":"Bring Your Own Device(BYOD)",
+        "shortname": "byod",
+        "description":"Frequently Asked Questions about Bring Your Own Device programs",
+         "link":"http://www7.algonquincollege.com/byod/current/faqs.htm"
+    },
+    {
+        "name":"Blackboard",
+        "shortname": "blackboard",
+        "description":"Frequently Asked Questions about Blackboard.",
+         "link":"http://www.algonquincollege.com/blackboard/faqs-for-students/"
+    },
+    {
+        "name":"Baking and Pastry Arts",
+        "shortname": "Baking and Pastry Arts",
+        "description":"Frequently Asked Questions about Baking and Pastry Arts.",
+         "link":"http://www.algonquincollege.com/hospitalityandtourism/program/baking-and-pastry-arts/faqs-2/"
+    },
+    {
+        "name":"Social Service Worker",
+        "shortname": "Social Service Worker",
+        "description":"Frequently Asked Questions about Social Service Worker.",
+         "link":"http://www.algonquincollege.com/healthandcommunity/program/social-service-worker/faqs/"
+    },
+    {
+        "name":"Fitness and Health Promotion",
+        "shortname": "Fitness and Health Promotion",
+        "description":"Frequently Asked Questions about Fitness and Health Promotion.",
+         "link":"http://www.algonquincollege.com/healthandcommunity/program/fitness-and-health-promotion/faqs/"
+    },
+    {
+        "name":"Advertising and Marketing Communications Management",
+        "shortname": "Advertising and Marketing Communications Management",
+        "description":"Frequently Asked Questions about Advertising and Marketing Communications Management.",
+         "link":"http://www.algonquincollege.com/mediaanddesign/files/2012/01/ADVT-Updated-FAQ-sheet-Jan-2012.pdf"
+    },
+    {
+        "name":"Applied Museum Studies",
+        "shortname": "Applied Museum Studies",
+        "description":"Frequently Asked Questions about Applied Museum Studies.",
+         "link":"http://www.algonquincollege.com/healthandcommunity/program/applied-museum-studies/faqs/"
+    },
+    {
+        "name":"Police Foundations",
+        "shortname": "Police Foundations",
+        "description":"Frequently Asked Questions about Police Foundations.",
+         "link":"http://www.algonquincollege.com/ppsi/program/police-foundations/faqs/"
+    },
+    {
+        "name":"Culinary Skills – Chef Training",
+        "shortname": "Culinary Skills – Chef Training",
+        "description":"Frequently Asked Questions about Culinary Skills – Chef Training.",
+         "link":"http://www.algonquincollege.com/hospitalityandtourism/program/chef-training/faqs/"
+    },
+    {
+        "name":"E-Text",
+        "shortname": "E-Text",
+        "description":"Frequently Asked Questions about E-Text troubleshooting.",
+         "link":"http://www.algonquincollege.com/etexts/faq/"
+    },
+    {
+        "name":"RESIDENCE",
+        "shortname": "Residence",
+        "description":"Frequently Asked Questions about Residence.",
+         "link":"http://www.algonquinrez.ca/faqs.html"
     }
+
 
 
 ]

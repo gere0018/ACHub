@@ -17,7 +17,6 @@
     text-decoration: none;
 }
 ion-content div.scroll{
-    overflow-y: scroll;
     height: 100%;
 }
 .webPage{
