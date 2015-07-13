@@ -113,6 +113,16 @@ angular.module('starter', ['ionic'])
             }
         }
     })
+    .state("tabs.faq", {
+        url: "/faqs/:aId",
+        views: {
+            "faqs-tab":{
+                templateUrl:"templates/faq.html",
+                controller: "FaqsController"
+
+            }
+        }
+    })
 
 //default situation if no url is specified.
     $urlRouterProvider.otherwise("/tab/home");
