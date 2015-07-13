@@ -1,5 +1,26 @@
 <ion-view hide-nav-bar='true'>
-    <ion-content class= 'padding has-subheader'>
-       <p> Yet to decide with Dan whether we need to add the FAQs from Joylene's document or a college link.</p>
-      </ion-content>
+    <!-- ******************** search bar **************** -->
+    <div class='bar bar-subheader item-input-inset bar-light'>
+        <label class="item-input-wrapper">
+            <i class="icon ion-search placeholder-icon"></i>
+    <!--we add ng-model directive to search input to allow for two way data binding that makes the data and view connected -->
+            <input type="search" placeholder="Search" ng-model="query">
+        </label>
+
+    </div>
+    <!-- ******************** main content **************** -->
+    <ion-content ng-controller= "FaqsController" class= "has-subheader padding ">
+        <h4 class="centered">Below is a list of links to all the frequently asked questions about the College.</h4>
+        <ion-list>
+            <ion-item ng-repeat="item in faqs | filter: query"
+            class="item-text-wrap">
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.description }}</p>
+                <a class= 'listLinks' href="#/tab/faqs/{{ item.shortname }}">Details</a>
+
+            </ion-item>
+        </ion-list>
+
+    </ion-content>
+
 </ion-view>

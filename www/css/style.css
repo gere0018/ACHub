@@ -1,4 +1,13 @@
-/* Empty. Add your own CSS if you like */
+/********************** General *******************************/
+.centered{
+    text-align: center;
+}
+
+
+/********************** Home Page *******************************/
+.tagLine{
+    width:100%;
+}
 .title-image {
     margin: 0 auto;
     height: 30px;
@@ -10,7 +19,6 @@
 ion-content div.scroll{
     overflow-y: scroll;
     height: 100%;
-    margin-top: 2.5rem;
 }
 .webPage{
     width: 100%;
@@ -23,6 +31,9 @@ ion-content div.scroll{
 .algonquin{
     background-color: #00673E !important;
 }
+
+
+/********************** Home Page *******************************/
 
 .iframe-wrapper iframe {
    width: 100%;
@@ -37,3 +48,4 @@ ion-content div.scroll{
 .tab-item.tab-item-active{
     color: #94C947 !important;
 }
+

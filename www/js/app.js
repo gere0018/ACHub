@@ -127,7 +127,6 @@ angular.module('starter', ['ionic'])
 .controller('HomeController', ['$scope', '$http', '$state',
                                function($scope, $http, $state){
     $http.get('js/data.json').success(function(data){
-        console.log('succeded in getting data');
         $scope.links = data;
         $scope.whichlink=$state.params.aId;
     });
@@ -137,19 +136,19 @@ angular.module('starter', ['ionic'])
 .controller('SurveysController', ['$scope', '$http', '$state',
                                   function($scope, $http, $state){
     $http.get('js/surveys.json').success(function(data){
-        console.log('succeded in getting surveys data');
         $scope.surveys = data;
         $scope.whichsurvey =$state.params.aId;
     });
 
 }])
-.controller('CheckboxController', ['$scope', function($scope) {
-      $scope.isChecked = {
-       value1 : true,
-       value2 : false
-     };
-    //add code to have this tab direct to the direct link of this survey as a subpage if this is select input is checked.
-    }])
+.controller('FaqsController', ['$scope', '$http', '$state',
+                               function($scope, $http, $state){
+    $http.get('js/faqs.json').success(function(data){
+        $scope.faqs = data;
+        $scope.whichFaq=$state.params.aId;
+    });
+
+}])
 
 //added this based on code suggestion (http://forum.ionicframework.com/t/ng-src-not-updated-in-video-tag/7540/5); worked really well to replace the abscence of ng-src for iframes.
 

@@ -1,11 +1,11 @@
 <ion-view hide-nav-bar='true'>
+    <div class='bar bar-subheader centered'>
+                <h4 >Please Select the appropriate survey according to your desk location.</h4>
+</div>
 <!-- ******************** main content **************** -->
-    <ion-content ng-controller= "SurveysController" class= 'padding'>
-        <ion-list>
-            <form name="myForm" ng-controller="CheckboxController">
-                 <ion-checkbox  ng-model="isChecked.value1">Select to remember this location</ion-checkbox>
-            </form>
+    <ion-content ng-controller= "SurveysController" class= ' has-subheader padding'>
 
+        <ion-list>
             <ion-item ng-repeat="item in surveys | filter: query"
             class="item-thumbnail-left item-text-wrap">
                 <img  ng-src="img/{{ item.shortname }}.jpg" alt="{{ item.name }} photo">

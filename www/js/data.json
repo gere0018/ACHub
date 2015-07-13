@@ -1,5 +1,19 @@
 [
     {
+        "name":"Emergency Management",
+        "shortname": "emergency",
+        "description":"In All Emergencies Dial “5000”",
+        "link":"http://www.algonquincollege.com/emergency-procedures/"
+
+    },
+    {
+        "name":"AC Hub Facebook Group",
+        "shortname": "facebook",
+        "description":"This is a forum where messages will be posted for all the AC Hub staff to see. You can use this forum to find a replacement for your shift. Please use your discretion and post only relevant content to this group.",
+        "link":"https://www.facebook.com/groups/595077600592030/"
+
+    },
+    {
         "name":"Algonquin College",
         "shortname": "algonquin-college",
         "description":"Main College Website.Use this link when searching for programs or college information.",
@@ -12,6 +26,30 @@
         "description":"This link allows you to access your different Algonquin Platforms like ACSIS and Blackboard.",
          "link":"http://www.algonquincollege.com/current-students/"
 
+    },
+     {
+        "name":"International Education Center",
+        "shortname": "iec",
+        "description":"Center for assisting all international Students.Located in Room C-429, Ext:7031",
+        "link":"http://www.algonquincollege.com/international/"
+
+    },
+    {
+        "name":"Experienced Worker Centre",
+        "shortname": "ewc",
+        "description":"The EWC helps adults who have been laid-off,or are simply considering a new career.Located in Room A-214, Ext:7127, walk-in between the hours of 9:00 am and 4:30 pm Monday to Friday.",
+        "link":"http://www.algonquincollege.com/ewc/contactus/"
+
+    },
+    {
+        "name":"Student Success Specialists",
+        "shortname": "ss-specialists",
+        "description":"Student Success Specialists provide support and resources to help students achieve their academic and personal goal.Each school has a different specialist, the link below guides you to each specialist.",
+        "link":"http://www.algonquincollege.com/student-success/student-success-specialist/"
+
     }
+
+
+
 
 ]

@@ -1,0 +1,36 @@
+[
+    {
+        "name":"Financial Aid",
+        "shortname": "financial-aid",
+        "description":"Answers Frequently Asked Questions about OSAP and Bursaries.",
+        "link":"http://www.algonquincollege.com/ro/pay/financial-aid/faqs/"
+    },
+
+    {
+        "name":"Parking",
+        "shortname": "parking",
+        "description":"Answers Frequently Asked Questions about parking on campus.",
+         "link":"http://www.algonquincollege.com/parking/faqs/"
+    },
+    {
+        "name":"Card Services",
+        "shortname": "card-services",
+        "description":"Answers Frequently Asked Questions about AC Card.",
+         "link":"http://www.algonquincollege.com/card-services/faq/"
+    },
+    {
+        "name":"Internationl Education Center",
+        "shortname": "iec-faq",
+        "description":"Answers Frequently Asked Questions about all things related to international students. ",
+         "link":"http://www.algonquincollege.com/international/prospective-students/faqs/"
+
+    },
+    {
+        "name":"General Education electives",
+        "shortname": "gen-ed",
+        "description":"Answers some of the common questions Algonquin College staff may have regarding General Education electives.",
+         "link":"http://www.algonquincollege.com/gened/staff/staff-faqs/"
+    }
+
+
+]
