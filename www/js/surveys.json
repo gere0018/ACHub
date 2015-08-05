@@ -1,37 +1,44 @@
 [
     {
-        "name":"AC Hub main Desk",
+        "name":"AC Hub Reception",
         "shortname": "main-desk",
         "description":"Main location in E-217.",
-        "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/the-ac-hub-reception/?TEST_DATA=&_cb=t9JonSE3ak"
+        "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-reception/"
+
+    },
+    {
+        "name":"Phone calls at AC Hub Reception",
+         "shortname": "phone-calls",
+        "description":"This survey is for the phone calls received at the AC Hub Reception. ",
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/phone-calls-ac-hub-reception/"
 
     },
      {
-        "name":"Satellite Desk",
+        "name":"AC Hub Satellite",
          "shortname": "satellite-desk",
         "description":"Desk located near the library in C building. ",
-         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/main-desk-survey-2014-summer/?TEST_DATA&_cb=yOXhEkSETf"
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-satellite/"
 
     },
     {
-        "name":"Mobile A",
-        "shortname": "mobile-a",
+        "name":"AC Hub Mobile A",
+        "shortname": "mobile",
         "description":"Desk located in CA building next to baseline station. ",
-         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-ac-hub-satellite-a/"
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-a/"
 
     },
     {
-        "name":"Mobile B",
-        "shortname": "mobile-b",
+        "name":"AC Hub Mobile B",
+        "shortname": "mobile",
         "description":"Desk located in 4 corners. ",
-         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-satellite-mobile-b/?TEST_DATA=&_cb=G1a8x3B613"
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-b/"
 
     },
     {
-        "name":"Mobile C",
-        "shortname": "mobile-c",
+        "name":"AC Hub Mobile C",
+        "shortname": "mobile",
         "description":"Desk located in position to be decided. ",
-         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-satellite-mobile-c/?TEST_DATA=&_cb=2tHhHbDT4b"
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-c/"
 
     }
 

@@ -12,12 +12,14 @@
     <ion-content ng-controller= "HomeController" class= "has-subheader padding">
         <h1><img class= "tagLine" src="img/Hub%20Tagline.png" alt="AChub tagline"></h1>
         <ion-list>
-            <ion-item ng-repeat="item in links | filter: query"
+            <ion-item href="#/tab/home/{{ item.shortname }}" ng-repeat="item in links | filter: query"
             class="item-thumbnail-left item-text-wrap">
+
                 <img ng-src="img/{{ item.shortname }}.jpg" alt="{{ item.name }} photo">
-                <h3>{{ item.name }}</h3>
+
+                <h3 class="list-header">{{ item.name }}</h3>
+                <i class="icon ion-chevron-right custom-icon-right"></i>
                 <p>{{ item.description }}</p>
-                <a class= 'listLinks' href="#/tab/home/{{ item.shortname }}">Details</a>
 
             </ion-item>
         </ion-list>

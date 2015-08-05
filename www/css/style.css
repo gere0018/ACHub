@@ -2,6 +2,15 @@
 .centered{
     text-align: center;
 }
+.custom-icon-right{
+    float: right;
+    margin-top: 10px;
+
+}
+.list-header{
+    color: #EAAB00;
+    padding: 0px;
+}
 
 
 /********************** Home Page *******************************/
@@ -12,10 +21,7 @@
     margin: 0 auto;
     height: 30px;
 }
-.listLinks{
-    color: #EAAB00;
-    text-decoration: none;
-}
+
 ion-content div.scroll{
     height: 100%;
 }
