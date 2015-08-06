@@ -4,67 +4,7 @@
 </div>
 
     <ion-content scroll="true" overflow-scroll="true" class="iframe-wrapper padding has-subheader" >
-        <div id="main-content">
-                    <div id="main-content-outer">
-                        <div class="post-header">
-                        </div>
-                        <div id="content">
-                            <table id="instructions">
-                                <tbody><tr>
-                                    <td style="width: 45%;">
-                                        Use your mouse to centre the map on the building you are interested in viewing, then click the Zoom In/Out buttons, or use the scroll wheel to look around.
-                                    </td>
-                                    <td style="width: 10%; text-align: center;">
-                                        <b><i>OR</i></b>
-                                    </td>
-                                    <td style="width: 45%;">
-                                        Type in the room number (example P105) and then click on the Go To Search button.
-                                    </td>
-                                </tr>
-                            </tbody></table>
-                            <br>
-                            <div id="tableMapSearch">
-                                <table>
-                                    <tbody><tr>
-                                        <td style="width: 37%;">
-                                            <input class="inputText" type="text" id="searchBox" style="width: 170px" onkeypress="return searchQuery(event)" value=""> <input class="button" type="submit" value="Search Map" onclick="searchButtonQuery()"> <input id="clearButton" type="button" onclick="clear()" value="Clear" disabled="">
-                                        </td>
-                                        <td id="outputCell" style="width: 63%; visibility: hidden;" class="label">
-                                            <div id="buildingLabel"></div></td>
-                                    </tr>
-                                </tbody></table>
-                            </div>
-                            <div id="tableMapSearchMOBILE">
-                                <table>
-                                    <tbody><tr>
-                                        <td style="width: 32%;">
-                                            <input class="inputText1" type="text" id="searchBox1" style="width: 100px" onkeypress="return searchQueryMobile(event)" value=""> <input class="button" type="submit" value="Search Map" onclick="searchButtonQueryMobile()"> <input id="clearButton1" type="button" onclick="clear()" value="Clear" disabled="">
-                                        </td>
-                                    </tr>
-                                    <tr id="outputCell1" style="visibility: visible;">
-                                      <td class="label"><div id="buildingLabel1"></div></td>
-                                  </tr>
-                                </tbody></table>
-                            </div>
-                            <div id="map1" style="border: 1px solid black;">
-                                <div id="map" class="map">
-                                <div id="map_root" class="container" style="width: 920px; height: 350px;"><div id="map_container" class="container" style="position: absolute; cursor: default;"><div id="map_layers" class="layersDiv"><div id="map_layer0" style="position: absolute; width: 920px; height: 350px; overflow: visible; opacity: 1; transform: translate3d(0px, 0px, -1px); display: block;"><img id="map_layer0_1438789164663" src="http://acmaps.algonquincollege.com/ArcGIS/rest/services/RFDetailFloors/MapServer/export?dpi=96&amp;transparent=true&amp;format=png8&amp;bbox=-8434581.5%2C5676164%2C-8431545.5%2C5677319&amp;bboxSR=3857&amp;imageSR=3857&amp;size=920%2C350&amp;layerDefs=0%3AFloorNumber%20LIKE%20'%25100'%3B2%3AFloorNumber%20LIKE%20'%25100'&amp;f=image" style="position: absolute; width: 920px; height: 350px; transform: translate3d(0px, 0px, -1px); transition: -webkit-transform 500ms ease;"></div><svg width="920" height="350" id="map_gc" style="overflow: visible; position: absolute;"><defs></defs><g id="map_graphics_layer" transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000)" style="display: block;"></g></svg></div></div><div id="map_infowindow" class="infowindow" dojoattachpoint="_infowindow" title="" widgetid="map_infowindow" style="display: none; z-index: 40;"><div style="position:relative;"><div class="window" dojoattachpoint="_window"><div class="top"><div class="left" dojoattachpoint="_topleft" style="height: 150px; margin-left: 250px;"><div class="sprite"></div></div><div class="right" dojoattachpoint="_topright" style="width: 250px; height: 150px;"><div class="sprite"></div><div class="user" dojoattachpoint="_user" style="width: 242px;"><div class="titlebar" dojoattachpoint="_titlebar"><a class="hide" dojoattachpoint="_hide" dojoattachevent="onclick:hide" style="margin-left: 228px;"><div class="sprite"></div></a><div class="title" dojoattachpoint="_title" style="width: 225px;"></div></div><div class="border" dojoattachpoint="_border"></div><div class="layout content" dojoattachpoint="_content, containerNode" style="height: 113px;"></div></div></div><div class="bottom"><div class="left" dojoattachpoint="_bottomleft" style="margin-left: 250px; margin-top: 150px;"><div class="sprite"></div></div><div class="right" dojoattachpoint="_bottomright" style="width: 245px; margin-top: 150px;"><div class="sprite"></div></div></div></div></div><div class="pointer" dojoattachpoint="_pointer"><div dojoattachpoint="_sprite" class="sprite"></div></div></div></div></div></div>
-                                <div id="layerMapButton">
-                                    <input id="goToButton" type="button" onclick="zoomIn()" value="Go To Search" class="mapButtons" disabled="" style="background-color: rgb(207, 207, 207);">
-                                    <input id="fullCampusnButton" type="button" onclick="zoomOut()" value="Full Campus" class="mapButtons">
-                                    <input type="button" onclick="zoom(1.4)" value="Zoom In" class="mapButtons">
-                                    <input type="button" onclick="zoom(0.3)" value="Zoom Out" class="mapButtons">
-                                </div>
-                            </div>
 
-                            <div>
-								<br>
-								<p>Download the mobile app for <a href="javascript:gotoAndroidLink();">android</a> or <a href="javascript:gotoIosLink();">ios</a>.</p>
-							</div>
-
-                        </div>
-                    </div>
-                </div>
-<!--        <iframe data-tap-disabled="true" class= 'webPage' name= "eventsPage" src="http://lyceum.algonquincollege.com/roomfinder/"></iframe>-->
+     <iframe data-tap-disabled="true" class= 'webPage' name= "eventsPage" src="http://lyceum.algonquincollege.com/roomfinder/"></iframe>
       </ion-content>
 </ion-view>
