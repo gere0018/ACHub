@@ -3,42 +3,42 @@
         "name":"AC Hub Reception",
         "shortname": "main-desk",
         "description":"Main location in E-217.",
-        "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-reception/"
+        "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-reception-1/"
 
     },
     {
         "name":"Phone calls at AC Hub Reception",
-         "shortname": "phone-calls",
+         "shortname": "phone",
         "description":"This survey is for the phone calls received at the AC Hub Reception. ",
-         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/phone-calls-ac-hub-reception/"
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/phone-calls-ac-hub-reception-1/"
 
     },
      {
         "name":"AC Hub Satellite",
          "shortname": "satellite-desk",
         "description":"Desk located near the library in C building. ",
-         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-satellite/"
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-satellite-1/"
 
     },
     {
         "name":"AC Hub Mobile A",
         "shortname": "mobile",
         "description":"Desk located in CA building next to baseline station. ",
-         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-a/"
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-a-1/"
 
     },
     {
         "name":"AC Hub Mobile B",
         "shortname": "mobile",
         "description":"Desk located in 4 corners. ",
-         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-b/"
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-b-1/"
 
     },
     {
         "name":"AC Hub Mobile C",
         "shortname": "mobile",
         "description":"Desk located in position to be decided. ",
-         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-c/"
+         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-c-1/"
 
     }
 
