@@ -2,7 +2,7 @@
 <widget id="com.algonquin.achub" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>ACHub</name>
   <description>
-        An Ionic Framework and Cordova project.
+        An application designed as a tool for the AC Hub staff to help them assist students with various inquiries at the AC Hub desks.
     </description>
   <author email="gere0018@algonquinlive.com" href="https://github.com/gere0018">
     Nehmat Gereige
