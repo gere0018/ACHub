@@ -172,21 +172,6 @@ angular.module('starter', ['ionic'])
 });
 
 
-//Directive to handle back buttons.
-
-$scope.onClickBack = function(){
-	  	// $ionicHistory.goBack(-1);
-	  	var currentState = $ionicHistory.currentStateName();
-	  	var currentStep = siteSurveyModule.getCurrentStep(currentState);
-
-	  	if(currentStep == "step02"){
-	  		$state.go('tabs.workorder_complete.site-survey-step01');
-	  	}else{
-	  		$state.go('^');
-	  	}
-	  };
-
-
 
 
 
