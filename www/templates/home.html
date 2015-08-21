@@ -9,8 +9,13 @@
 
     </div>
     <!-- ******************** main content **************** -->
+
+    <div class='bar bar-subheader centered'>
+        <h4>The list below links to important contact information</h4>
+    </div>
     <ion-content ng-controller= "HomeController" class= "has-subheader padding">
-        <h1><img class= "tagLine" src="img/Hub%20Tagline.png" alt="AChub tagline"></h1>
+
+
         <ion-list>
             <ion-item href="#/tab/home/{{ item.shortname }}" ng-repeat="item in links | filter: query"
             class="item-thumbnail-left item-text-wrap">
