@@ -2,6 +2,7 @@
     {
         "name":"AC Hub Reception",
         "shortname": "main-desk",
+        "photo":"main-desk",
         "description":"Main location in E-217.",
         "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-reception-1/"
 
@@ -9,6 +10,7 @@
     {
         "name":"Phone calls at AC Hub Reception",
          "shortname": "phone",
+        "photo":"phone",
         "description":"This survey is for the phone calls received at the AC Hub Reception. ",
          "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/phone-calls-ac-hub-reception-1/"
 
@@ -16,34 +18,39 @@
      {
         "name":"AC Hub Satellite",
          "shortname": "satellite-desk",
+         "photo":"satellite-desk",
         "description":"Desk located near the library in C building. ",
          "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/ac-hub-satellite-1/"
 
     },
     {
         "name":"AC Hub Mobile A",
-        "shortname": "mobile",
+        "shortname": "mobileA",
+        "photo":"mobile",
         "description":"Desk located in CA building next to baseline station. ",
          "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-a-1/"
 
     },
     {
         "name":"AC Hub Mobile B",
-        "shortname": "mobile",
+        "shortname": "mobileB",
+        "photo":"mobile",
         "description":"Desk located in 4 corners. ",
          "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-b-1/"
 
     },
     {
         "name":"AC Hub Mobile C",
-        "shortname": "mobile",
+        "shortname": "mobileC",
+        "photo":"mobile",
         "description":"Desk located in position to be decided. ",
          "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-c-1/"
 
     },
     {
         "name":"AC Hub Mobile D",
-        "shortname": "mobile",
+        "shortname": "mobileD",
+        "photo":"mobile",
         "description":"Desk located in position to be decided. ",
          "link":"http://fluidsurveys.com/surveys/algonquin-college-ssc/mobile-d/"
 
