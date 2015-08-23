@@ -1,4 +1,4 @@
-<ion-view>
+<ion-view cache-view="false">
     <ion-content scroll="true" overflow-scroll="true" class="iframe-wrapper padding" ng-repeat= "item in links | filter: {shortname: whichlink}">
                <iframe data-tap-disabled="true" class= 'webPage' name= "{{ item.shortname }}" src="" dynamic-url dynamic-url-src="{{item.link}}"></iframe>
 
