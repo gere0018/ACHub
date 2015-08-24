@@ -26,6 +26,12 @@
          "link":"http://www.algonquincollege.com/card-services/faq/"
     },
     {
+        "name":"U-Pass",
+        "shortname": "u-pass",
+        "description":"Frequently Asked Questions about U Pass.",
+         "link":"http://www.algonquincollege.com/upass/frequently-asked-questions/"
+    },
+    {
         "name":"Internationl Education Center",
         "shortname": "iec-faq",
         "description":"Frequently Asked Questions about all things related to international students. ",

@@ -32,8 +32,29 @@
     {
         "name":"Student Success Specialists",
         "shortname": "ss-specialists",
-        "description":"Student Success Specialists provide support and resources to help students achieve their academic and personal goal.Each school has a different specialist, the link below guides you to each specialist.",
+        "description":"Student Success Specialists provide support and resources to help students achieve their academic and personal goal. Each school has a different specialist, the links on this page guide you to each specialist.",
         "link":"http://www.algonquincollege.com/student-success/student-success-specialist/"
+
+    },
+    {
+        "name":"Welcome Centre",
+        "shortname": "wc",
+        "description":"The Welcome Centre is located in the Student Commons, E building, on the 3rd floor. To speak with a member of the Welcome Centre team, call 613-727-4723 ext. 7200.",
+        "link":"http://www.algonquincollege.com/welcomecentre/contact-us/"
+
+    },
+    {
+        "name":"Health Services",
+        "shortname": "health-services",
+        "description":"The College’s Health Services provides professional, confidential medical services. Physicians are often available without an appointment. Call 613-727-4723 ext. 7222.",
+        "link":"http://www.algonquincollege.com/healthservices/contact-us/"
+
+    },
+    {
+        "name":"ITS",
+        "shortname": "its",
+        "description":"ITS has three Service Desk locations to serve you. Each serves one of the college campuses and its satelites: Woodroffe, Pembroke, and Perth. Call 613-727-4723 ext. 5555.",
+        "link":"http://www.algonquincollege.com/its/about-contact-its/"
 
     }
 
