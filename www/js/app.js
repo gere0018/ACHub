@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic'])
+angular.module('AcHub', ['ionic', 'controllers'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -134,31 +134,6 @@ angular.module('starter', ['ionic'])
 //the second parameter is because in this controller we want to use the http service of angular.
 //the function takes both parameters as well.
 
-.controller('HomeController', ['$scope', '$http', '$state',
-                               function($scope, $http, $state){
-    $http.get('js/data.json').success(function(data){
-        $scope.links = data;
-        $scope.whichlink=$state.params.aId;
-    });
-
-}])
-
-.controller('SurveysController', ['$scope', '$http', '$state',
-                                  function($scope, $http, $state){
-    $http.get('js/surveys.json').success(function(data){
-        $scope.surveys = data;
-        $scope.whichsurvey =$state.params.aId;
-    });
-
-}])
-.controller('FaqsController', ['$scope', '$http', '$state',
-                               function($scope, $http, $state){
-    $http.get('js/faqs.json').success(function(data){
-        $scope.faqs = data;
-        $scope.whichFaq=$state.params.aId;
-    });
-
-}])
 
 //added this based on code suggestion (http://forum.ionicframework.com/t/ng-src-not-updated-in-video-tag/7540/5); worked really well to replace the abscence of ng-src for iframes.
 
