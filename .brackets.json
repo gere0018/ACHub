@@ -1,6 +1,9 @@
 {
     "jscodehints.detectedExclusions": [
         "/Users/Nehmat/Documents/Ac-hub/ACHub/www/lib/ionic/js/ionic.min.js",
-        "/Users/Nehmat/Documents/Ac-hub/ACHub/www/lib/ionic/js/ionic.js"
+        "/Users/Nehmat/Documents/Ac-hub/ACHub/www/lib/ionic/js/ionic.js",
+        "/Users/nehmat/Documents/Projects/ACHub/www/lib/ionic/js/ionic.min.js",
+        "/Users/nehmat/Documents/Projects/ACHub/www/lib/ionic/js/ionic.js",
+        "/Users/nehmat/Documents/Projects/ACHub/www/lib/ionic/js/ionic.bundle.min.js"
     ]
 }
